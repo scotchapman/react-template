@@ -1,0 +1,47 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "website template for webpack and react",
+  "main": "index.js",
+  "scripts": {
+    "local": "webpack-dev-server  --progress --colors",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scotchapman/template.git"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "redux"
+  ],
+  "author": "Scot Chapman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scotchapman/template/issues"
+  },
+  "homepage": "https://github.com/scotchapman/template#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "file-loader": "^0.8.5",
+    "postcss-loader": "^0.8.0",
+    "promise": "^7.1.1",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.13",
+    "whatwg-fetch": "^0.11.0"
+  },
+  "dependencies": {
+    "history": "^1.17.0",
+    "normalizr": "^2.0.0",
+    "react": "^0.14.7",
+    "react-bootstrap": "^0.28.2",
+    "react-dom": "^0.14.7",
+    "react-router": "^1.0.3",
+    "react-router-redux": "^3.0.0",
+    "redux": "^3.3.1",
+    "redux-localstorage": "^1.0.0-rc4",
+    "redux-thunk": "^1.0.3"
+  }
+}
